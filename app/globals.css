@@ -2,6 +2,106 @@
 @tailwind components;
 @tailwind utilities;
 
+/* DIN fonts */
+@font-face {
+  font-family: 'DIN';
+  src: url('/fonts/din/DIN BlackAlternate.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url('/fonts/din/DIN bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url('/fonts/din/DIN BoldAlternate.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url('/fonts/din/DIN LightAlternate.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url('/fonts/din/DIN Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url('/fonts/din/DIN MediumAlternate.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url('/fonts/din/DIN Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url('/fonts/din/DIN RegularAlternate.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* LibreBodoniv2002 fonts */
+@font-face {
+  font-family: 'LibreBodoniv2002';
+  src: url('/fonts/bodoni/LibreBodoniv2002-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LibreBodoniv2002';
+  src: url('/fonts/bodoni/LibreBodoniv2002-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'LibreBodoniv2002';
+  src: url('/fonts/bodoni/LibreBodoniv2002-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'LibreBodoniv2002';
+  src: url('/fonts/bodoni/LibreBodoniv2002-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LibreBodoniv2002';
+  src: url('/fonts/bodoni/LibreBodoniv2002-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'LibreBodoniv2002';
+  src: url('/fonts/bodoni/LibreBodoniv2002-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,11 +117,4 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+} 
